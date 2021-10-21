@@ -6,7 +6,7 @@ function checkCode(codeId){
     }
  
     if(answer == attempt) {
-        document.getElementById("theShit" + codeId.substring(4)).innerHTML = "<h1> </h1><br>"
+        document.getElementById("theShit" + codeId.substring(4)).innerHTML = "<h1> xipp xli sri amxl xli </h1><br>"
         document.body.style.backgroundImage = "url('Black.jpg')";
     }
     else{

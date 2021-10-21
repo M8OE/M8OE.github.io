@@ -90,7 +90,7 @@ window.onload = function () {
       if (checkBoardCompleted(boardContainer)) {
 
         boardCompleted = true;
-        attemptsPara.innerHTML = `Pepe Popo`;
+        attemptsPara.innerHTML = `jpmiw ex 3 EQ`;
       }
 
       displayBoard(boardContainer);
