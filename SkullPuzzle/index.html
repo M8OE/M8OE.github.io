@@ -5,19 +5,22 @@
    </head>
    <style>
         h1 {
-           color: rgb(143, 131, 64);
+            color: goldenrod;
+            font-size: 100px;
        }
         h3 {
-            color:white
+            color:rgb(0, 0, 0);
+            font-size: 25px;
        }
         h2 {
-           color:red
+           color:red;
+           font-size: 100px;
        }
-        theShit {
+        theShit{
             display: flex;
             justify-content: center;
-            width: 50px;
-            height: 100px;
+            width: 300px;
+            height: 200px;
             border: 3px solid green;
         }
         input[type="number"] {
@@ -27,9 +30,12 @@
         button {
             display: block;
             margin : 0 auto;
+            font-size: 100;
+            width: 200px;
+            height: 100px;
         }
         body {
-            background: url('Skull Image.jpg');
+            background-image: url('Skull Image.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed; 
             background-size: 100% 100%;
@@ -40,9 +46,9 @@
     <body></body>
 
    <div class='theShit' id="theShit2"> 
-        <h1>SKULL LOCK</h1> 
+        <h1>Skull LOCK</h1> 
         <input type=text name="code" id="code2">
-        <button onclick="checkCode('code2')">UNLOCK</button>
+        <button onclick="checkCode('code2')"> <h3>UNLOCK</h3></button>
         <div id="response2"></div>
     </div>
     <script src="check.js"></script>
