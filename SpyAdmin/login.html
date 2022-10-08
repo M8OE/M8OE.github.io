@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>This is the title of the browser tab</title>
+</head>
+
+<style>
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .loginFields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .textStream {
+        text-align: start;
+        visibility: visible;
+        text-align: left;
+        width: 500px;
+        align-items: center;
+        padding-top: 40px;
+    }
+</style>
+
+<body id="bodyStuff" style="background-color: green;">
+    <div class="loginForm" id="loginForm">
+        <h1>Russian Spy Login</h1>
+        <div class="loginFields" id="loginFields">
+            Username: <br>
+            <input type="text" id="username">
+            <div id="hintText" style="font-size: 13; padding-bottom: 5px;"><br></div>
+            Password: <br>
+            <input type="password" id="password">
+            <div style="display:flex; justify-content: center;">
+                <button onclick="submit()" style="width:120px; height: 30px; margin-top: 10px;">Submit</button>
+            </div>
+            <div id="loginMessage" style="width: 200px; margin-top: 10px; font-size: 13;"></div>
+        </div>
+    </div>
+
+    <div style="display:flex; justify-content:center;">
+        <div class="textStream" id="incomingText"></div>
+    </div>
+</body>
+
+<script src="./loginStuff.js"></script>
+
+</html>
