@@ -21,7 +21,7 @@ function submit() {
         document.getElementById('hintText').innerHTML = "<br>"
     }
 
-    if (username == USERNAME && password == PASSWORD) {
+    if (username == USERNAME.toLowerCase() && password == PASSWORD) {
         document.getElementById("loginForm").remove()
         let id = null;
         const elem = document.getElementById("incomingText");
