@@ -1,4 +1,4 @@
-const HINT_MESSAGE = "<strong>hint</strong>: email"
+const HINT_MESSAGE = "<strong>hint</strong>: EMAIAL"
 const FAIL_MESSAGE = "The homeland did not like that."
 
 const USERNAME = "b"
@@ -6,10 +6,14 @@ const PASSWORD = "t"
 
 //put your text between the ``, and use ~ to make it go to the next line. 
 const INCOMING_MESSAGE_TEXT = `
-    Today I at ass~.~.~.~.~.~.~.~.~.~.~.~.
-    Goodjob buddy
+    INCOMING TRANSMISSION.~.~.~.~.~.~.~.~.~.~.~.~
+    (TRANSLATED FROM RUSSIAN) 
+    Great Job.
+    ~.~.~.~.~.~.~.~.~.~.~.~
+    END OF TRANSMISSION.
 `
-const MILLISECONDS_BETWEEN_LETTERS = 110
+const MILLISECONDS_BETWEEN_LETTERS = 80
+
 
 function submit() {
     let username = document.getElementById('username').value
