@@ -16,10 +16,10 @@ const INCOMING_MESSAGE_TEXT = `
     Above and under the ground at once, the double sets you free.~
     Tread cautious of the squares be round, and follow the arrow wee.~
     Open a chamber makred by US, beneath the false star.~
-    Place the key in the crack, and then go hide far. 
+    Place the key in the crack, and then go hide afar. 
     ~.~
     We will need another shipment of Peanut Butter soon.~.~
-    High Met Yuri
+    Well done Yuri
     ~.~.~.~
     END OF TRANSMISSION.
 `
