@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arcade Clue Checker</title>
+</head>
+<style>
+    h1 {
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+    }
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+    h2 {
+        color: red;
+        font-size: 100px;
+    }
+
+    h4 {
+        color: green;
+        font-size: 100px;
+    }
+
+    input[type="number"] {
+        display: block;
+        margin: 0 auto;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        font-size: 100;
+        width: 200px;
+        height: 100px;
+    }
+
+    body {
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        vertical-align: bottom;
+    }
+</style>
+
+<body></body>
+
+<div class='theShit' id="theShit2">
+    <h1>INPUT WORD OR NUMBER YOU THINK THE CLUE IS FROM THE QUIZ PUZZLE</h1>
+    <input type=text name="code" id="code2">
+    <button onclick="checkCode('code2')">
+        <h3>CHECK</h3>
+    </button>
+    <div id="response2"></div>
+</div>
+<script src="check.js"></script>
+
+<br><br><br><br><br><br><br>
+
+</html>
