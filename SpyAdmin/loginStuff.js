@@ -7,8 +7,14 @@ const PASSWORD = "t"
 //put your text between the ``, and use ~ to make it go to the next line. 
 const INCOMING_MESSAGE_TEXT = `
     INCOMING TRANSMISSION.~.~.~.~.~.~.~.~.~.~.~.~
-    (TRANSLATED FROM RUSSIAN) 
-    Great Job.
+    (TRANSLATED FROM RUSSIAN) ~
+    Good job finding the key. The device and portal will be ours. ~
+    .~.~.~
+    Leave the key at the usual drop off spot. In case you forgot where here is a reminder. ~
+    .~.~
+    Above and under the ground at once, the double sets you free.
+    Tread cautious of the squares be round, and follow the arrow wee.
+    Open a chamber makred by US, and find the spot of the stolen key.
     ~.~.~.~.~.~.~.~.~.~.~.~
     END OF TRANSMISSION.
 `
