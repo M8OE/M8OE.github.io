@@ -1,17 +1,17 @@
-const HINT_MESSAGE = "<strong>hint</strong>: EMAIAL"
-const FAIL_MESSAGE = "The Homeland did not like that."
+const HINT_MESSAGE = "<strong>hint</strong>: EMAIL"
+const FAIL_MESSAGE = "2 Attempts Remaining"
 
-const USERNAME = "b"
-const PASSWORD = "t"
+const USERNAME = "yuripb@flight.com"
+const PASSWORD = "eggo"
 
 //put your text between the ``, and use ~ to make it go to the next line. 
 const INCOMING_MESSAGE_TEXT = `
-    INCOMING TRANSMISSION.~.~.~.~.~.~.~.~.~.~.~.~
+    INCOMING TRANSMISSION.~.~.~.~
     (TRANSLATED FROM RUSSIAN) 
     ~.~
     Good job finding the key. The device and portal will be ours. ~
     .~
-    Leave the key at the usual drop off spot. In case you forgot where here is a reminder. ~
+    Leave the key at the usual drop off spot. In case you forgot where it is here is a reminder. ~
     .~
     Above and under the ground at once, the double sets you free.~
     Tread cautious of the squares be round, and follow the arrow wee.~
@@ -19,8 +19,8 @@ const INCOMING_MESSAGE_TEXT = `
     Place the key in the crack, and then go hide far. 
     ~.~
     We will need another shipment of Peanut Butter soon.~.~
-    High Met Yuri.
-    ~.~.~.~.~.~.~.~
+    High Met Yuri
+    ~.~.~.~
     END OF TRANSMISSION.
 `
 const MILLISECONDS_BETWEEN_LETTERS = 80
