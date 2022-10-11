@@ -1,5 +1,5 @@
 const HINT_MESSAGE = "<strong>hint</strong>: EMAIAL"
-const FAIL_MESSAGE = "The homeland did not like that."
+const FAIL_MESSAGE = "The Homeland did not like that."
 
 const USERNAME = "b"
 const PASSWORD = "t"
