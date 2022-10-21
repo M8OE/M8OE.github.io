@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Secret "Hawkins" Files</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+</head>
+
+<style>
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(149, 8, 0);
+    }
+
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .loginFields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .textStream {
+        text-align: start;
+        visibility: visible;
+        text-align: left;
+        width: 80%;
+        align-items: center;
+        padding-top: 40px;
+    }
+</style>
+
+<body id="bodyStuff" style="background-color: black;">
+    <div class="loginForm" id="loginForm">
+        <h1>Project Hawkins Jounral - Alias: Failsafe</h1>
+        <div class="loginFields" id="loginFields">
+            <div id="loginMessage" style="width: 200px; margin-top: 10px; font-size: 13;"></div>
+        </div>
+    </div>
+
+    <div style="display:flex; justify-content:center;">
+        <div class="textStream" id="incomingText"></div>
+    </div>
+</body>
+
+<script src="./loginStuff.js"></script>
+
+</html>
