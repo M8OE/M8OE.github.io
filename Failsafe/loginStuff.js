@@ -30,7 +30,7 @@ OCTOBER 19th, 2022~
 It's Vecna, He almost killed me. He stole the remote so the portal could never be closed. The portal has taken over the skybridge, the only way in is from the library side of the bridge. I am going upside down after him. If I do not return for some reason, I hope someone can fix what I could not. If that is the case then find the key, a sword, and a cassette tape then go into the upside down in the library on the 3rd floor. I must go. I am sorry for I fear I have caused the end of the world. 
 ~~
 `
-const MILLISECONDS_BETWEEN_LETTERS = 0
+const MILLISECONDS_BETWEEN_LETTERS = 1
 
 
 
